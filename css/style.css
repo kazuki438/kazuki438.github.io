@@ -1,0 +1,496 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 170px;
+    margin: 10px 0 0 10px;
+}
+
+.header-middle {
+    display: flex;
+    align-items: center;
+}
+
+.header-middle-block {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.header-middle-block span {
+    color: rgb(235, 0, 125);
+}
+
+.header-middle img {
+    margin-right: 5px;
+}
+
+.first-pic {
+    padding: 150px 0;
+    background-image: url("../img/tabi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-pic p {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.first-pic img {
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+}
+
+.news-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.news-img img {
+    display: block;
+    margin: 0 10px;
+    width: 380px;
+}
+
+.movie {
+    width: 1200px;
+    height: 500px;
+    display: block;
+    margin: 30px auto 100px;
+}
+
+.tabiiku-plan-top {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.tabiiku-plan-top-block img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tabiiku-plan-top-block p {
+    text-align: center;
+    width: 90%;
+    margin-top: 15px;
+    line-height: 1.5em;
+    font-size: 1.05em;
+}
+
+.yellow-button {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 30px auto 0;
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    transition: 0.4s;
+}
+
+.yellow-button:hover {
+    background-color: #fff;
+    border: 2px solid rgb(255, 255, 0);
+    margin-bottom: -4px;
+}
+
+.blue-button {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 30px auto 0;
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgb(54, 99, 248);
+    color: #fff;
+    transition: 0.4s;
+}
+
+.blue-button:hover {
+    background-color: #fff;
+    border: 2px solid rgb(54, 99, 248);
+    margin-bottom: -4px;
+    color: #000;
+}
+
+.orange-button {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 30px auto 0;
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgb(248, 132, 54);
+    color: #fff;
+    transition: 0.4s;
+}
+
+.orange-button:hover {
+    background-color: #fff;
+    border: 2px solid rgb(248, 132, 54);
+    margin-bottom: -4px;
+    color: #000;
+}
+
+.injapan-plan {
+    display: flex;
+    margin: 30px auto 0;
+    max-width: 750px;
+}
+
+.injapan-plan p {
+    text-align: center;
+    width: 90%;
+    margin-top: 15px;
+    line-height: 1.5em;
+    font-size: 1.05em;
+}
+
+.green-button {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 30px auto 0;
+    width: 320px;
+    border-radius: 10px;
+    background-color: rgb(38, 133, 1);
+    color: #fff;
+    transition: 0.4s;
+}
+
+.green-button:hover {
+    background-color: #fff;
+    border: 2px solid rgb(38, 133, 1);
+    margin-bottom: -4px;
+    color: #000;
+}
+
+.plan {
+    margin-top: 30px;
+    padding: 100px 0 50px;
+    background: rgb(233, 233, 1);
+}
+
+.plan-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.plan-explain {
+    width: 595px;
+    display: block;
+    font-size: 0.9em;
+    margin: 50px auto 0;
+    line-height: 1.3em;
+}
+
+.plan-year-block {
+    display: relative;
+    right: 0;
+    left: 0;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+.plan-year {
+    font-size: 1.35em;
+    text-align: center;
+}
+
+.under-line {
+    width: 90px;
+    height: 10px;
+    margin: 0 auto;
+    border-bottom: 1.5px solid #000;
+}
+
+.slick img {
+    width: 100%;
+}
+
+.slick-block {
+    padding: 10px;
+    background-color: #fff;
+    display: block;
+    margin: 0 30px;
+}
+
+.slick {
+    margin: 50px auto 0;
+    width: 1200px;
+}
+
+.tabiiku-title {
+    position: relative;
+    top: -15px;
+    margin-bottom: -30px;
+    background-color: rgb(255, 255, 0);
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+.slick-title-place {
+    padding: 3px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slick-title-place span {
+    font-size: 25px;
+}
+
+.slick-title-place-2 span {
+    font-size: 22px;
+}
+
+.tabiiku-slick-detail {
+    font-size: 0.95em;
+    line-height: 1.35em;
+}
+
+.black-button {
+    display: block;
+    margin: 100px 0 0 auto;
+    padding: 10px 0;
+    width: 150px;
+    text-align: center;
+    background-color: #000;
+    font-size: 14px;
+    color: rgb(255, 255, 0);
+    border-radius: 2px;
+    position: relative;
+    right: 28px;
+    top: -80px;
+    transition: 0.3s;
+}
+
+.black-button:hover {
+    border: 1px solid #000;
+    color: #000;
+    background-color: rgb(233, 233, 1);
+    margin-bottom: -2px;
+}
+
+.plan-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trip-block {
+    display: block;
+    padding: 10px;
+    width: 350px;
+    background-color: #fff;
+    margin: 0 25px;
+}
+
+.trip-block img {
+    width: 330px;
+}
+
+.trip-block-gather {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.plan-logo-iwake {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.plan-logo-iwake img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.tabiiku-next {
+    padding: 50px 0;
+}
+
+.tabiiku-title-2 {
+    background-color: rgb(79, 79, 255);
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.slick-block-2 {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
+}
+
+.black-button-2:hover {
+    background-color: #fff;
+}
+
+.back-color-orange {
+    padding: 50px 0;
+    background-color: rgb(243, 150, 0);
+}
+
+.plan-explain-2 {
+    margin-top: 20px;
+}
+
+.tabiiku-title-3 {
+    font-size: 0.9em;
+    color: #fff;
+    background-color: rgb(255, 166, 0);
+}
+
+.trip-block-2 {
+    margin: 40px auto 0;
+}
+
+.black-button-3:hover {
+    background-color: rgb(243, 150, 0);
+}
+
+.participant {
+    padding: 50px 0;
+}
+
+.participant-block {
+    width: 350px;
+    display: block;
+    padding: 10px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    margin: 0 10px;
+}
+
+.participant-block img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.participant-block-gather {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.participant-title {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.participant-title {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.participant-block p {
+    margin: auto;
+    width: 90%;
+}
+
+.participant-block a {
+    display: block;
+    padding: 10px;
+    margin: 10px auto 0;
+    width: 100px;
+    background-color: rgb(230, 149, 0);
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.participant-block a:hover {
+    background-color: #fff;
+    border: 2px solid rgb(230, 149, 0);
+    margin-bottom: -4px;
+}
+
+.participant-block-detail {
+    font-size: 12px;
+    line-height: 1.1em;
+    margin: 3px 0;
+}
+
+.tabiiku-flow-title {
+    width: 160px;
+}
+
+.tabiiku-flow-block {
+    width: 250px;
+    font-size: 13px;
+    line-height: 1.5em;
+    margin: 0 15px;
+}
+
+.tabiiku-flow-block-gather {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tabiiku-flow-block img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.question-and-answer {
+    width: 750px;
+    margin: 50px auto 0;
+}
+
+.question {
+    padding: 10px 25px;
+    border-top: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: rgb(245, 243, 243);
+}
+
+.answer {
+    padding: 3px 25px 20px;
+    display: none;
+}
+
+.answer span {
+    font-size: 11px;
+}
+
+.question-2 {
+    padding: 20px 25px;
+    color: orange;
+}
+
+.question-2:hover {
+    background-color: rgb(255, 238, 223);
+}
+
+.answer-context {
+    margin-bottom: 30px;
+}
+
+.top-line {
+    margin: 0 auto 100px;
+    width: 750px;
+    height: 0.1px;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.twitter-timeline {
+    width: 300px;
+    display: block;
+    margin-left: 220px;
+}
